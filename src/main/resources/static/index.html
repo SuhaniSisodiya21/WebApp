@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flipr WebApp</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+    <div class="logo">Flipr</div>
+    <nav>
+        <a href="#projects">Projects</a>
+        <a href="#clients">Clients</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero">
+    <div class="hero-text">
+        <h1>We Build Digital Products</h1>
+        <p>Modern web solutions to grow your business online.</p>
+    </div>
+
+    <!-- CONSULTATION FORM -->
+    <div class="hero-form" id="contact">
+        <h3>Get a Free Consultation</h3>
+        <form id="contactForm">
+            <input type="text" id="fullName" placeholder="Full Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="text" id="mobile" placeholder="Mobile" required>
+            <input type="text" id="city" placeholder="City" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section" id="projects">
+    <h2>Our Projects</h2>
+    <div class="card-grid" id="projectsContainer"></div>
+</section>
+
+<!-- CLIENTS -->
+<section class="section light" id="clients">
+    <h2>Happy Clients</h2>
+    <div class="card-grid" id="clientsContainer"></div>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="newsletter">
+    <h2>Subscribe to our Newsletter</h2>
+    <input type="email" id="subEmail" placeholder="Enter your email">
+    <button onclick="subscribe()">Subscribe</button>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    © 2025 Flipr. All rights reserved.
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
